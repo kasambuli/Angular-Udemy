@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { UsernameFormComponent } from './username-form/username-form.component';
+import { PractisingDirectivesComponent } from './practising-directives/practising-directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    UsernameFormComponent
+    UsernameFormComponent,
+    PractisingDirectivesComponent
   ],
   imports: [
     BrowserModule,

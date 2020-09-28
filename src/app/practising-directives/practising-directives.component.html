@@ -1,0 +1,6 @@
+<button (click)="displayContent(); uploadTimestamp()">Display Details</button>
+<p *ngIf="display">Content to be displayed</p>
+<h4>Time on every click will be displayed below</h4>
+<ul *ngFor='let time of timestampList; index as i' [ngStyle]="{backgroundColor: i>=4 ? 'blue':'transparent'}" [ngClass]="{'white-text':i>=4}">
+    <li>{{time}}</li>
+</ul>
